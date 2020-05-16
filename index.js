@@ -17,7 +17,7 @@ function moveDodgerRight() {
   let left = parseInt(leftNumbers, 10);
   let gameContainerMaxWidth = gameContainer.offsetWidth-dodger.offsetWidth;
 
-  if (left<gameContainerMaxWidth) {
+  if (left<360) {
     dodger.style.left = `${left + 15}px`;
   }
 }
